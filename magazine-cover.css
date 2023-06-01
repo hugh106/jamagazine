@@ -1,0 +1,65 @@
+
+body {
+    background-color: red;
+    font-family: cursive sans-serif;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: red;
+}
+.centered {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  font-family:inherit;
+}
+.bottom-left {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  font-size: 300;
+  font-family: fantasy;
+  color: aqua;
+}
+.top-left {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  font-size: 75px;
+  width: 600px;
+  height: 100px;
+  box-sizing: border-box;
+}
+.top-right {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+  font-size: 75px;
+  width: 1000px;
+  height: 100px;
+  box-sizing: border-box;
+  
+}
+.bottom-right {
+  position: absolute;
+  display: block;
+  color: black;
+  font-size: 800px;
+  top: 80%;
+  right: 20%;
+  height: 125px;
+  width: 20vw;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+p {
+    color: black;
+    font-family: cursive, sans-serif;
+}
+
+
